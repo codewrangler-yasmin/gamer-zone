@@ -1,8 +1,27 @@
-/* Laptop Layout */
+/* Desktop Layout */
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
   /* common css */
   .container {
     width: 100%;
+  }
+  #career-container::after {
+    width: 100%;
+    background-size: contain;
+  }
+  .about-content {
+    padding: 40px 0;
+  }
+  .about-img {
+    grid-column: 1 / 7;
+  }
+  .about-text {
+    grid-column: 7 / 13;
+  }
+  .featured-text {
+    grid-column: 2 / 6;
+  }
+  .featured-text.text-left {
+    grid-column: 8 / 12;
   }
 }
 /* Medium Layout: 1200px. */
