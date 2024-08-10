@@ -11,6 +11,64 @@
   .container {
     width: 100%;
   }
+  .section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  /* navbar styles */
+  .navbar-content nav {
+    grid-column: 5 / 13;
+  }
+  /* about styles */
+  .about-content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .about-img {
+    grid-column: 1 / 7;
+  }
+  .about-text {
+    grid-column: 7 / 13;
+  }
+  /* video cards styles* */
+  .item-bg {
+    height: 300px;
+  }
+  /* featured styles */
+  .featured-text {
+    grid-column: 1 / 6;
+  }
+  .featured-img .featured-small {
+    width: 50%;
+  }
+  .featured-text.text-left {
+    grid-column: 8 / 12;
+  }
+  /* career styles */
+  #career-container::after {
+    width: 100%;
+    background-position: right;
+    background-size: contain;
+  }
+  .career-img .img-inner img {
+    position: relative;
+  }
+  .career-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* game lits styles */
+  .game-item {
+    padding: 10px;
+  }
+  .game-item p {
+    font-size: 1rem;
+  }
+  .game-item img {
+    width: 40px;
+    height: auto;
+  }
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
