@@ -204,7 +204,7 @@ ul.icon-list li a {
   font-weight: 500;
 }
 ul.icon-list li a i {
-  background: var(--text-primary);
+  background: var(--text-pink);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
